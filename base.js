@@ -31,5 +31,3 @@ function moveTab(index) {
     tab.style.transform = `translateX(${categoryItemWidth}px)`
     tab.style.width = `${categoryItem[index].offsetWidth}px`
 }
-
-moveTab(0)
